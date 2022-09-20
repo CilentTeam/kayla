@@ -430,13 +430,13 @@ user.afkTime = -1
 user.afkReason = ''
 }
 Pares.sendPresenceUpdate('composing', m.chat)
-    
+    Pares.sendPresenceUpdate('unavailable', store.chats.all().map(v => v.id))
 
 
-		if (m.message) {
+		/*if (m.message) {
             Pares.readMessages([m.key])
             }
-
+*/
 //=================================================//
 const pickRandom = (hehe) => {
 hehe[Math.floor(Math.random() * (hehe.length))]

