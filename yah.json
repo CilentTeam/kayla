@@ -1,27 +1,27 @@
 {
-  "name": "ManzTzy",
-  "version": "1.2.3",
-  "description": "Bot Wa On 24 Jam",
-  "main": "manz.js",
-  "type": "commonjs",
-  "scripts": {
-    "start": "node manz.js"
-  },
-  "keywords": [
-    "termux",
-    "whatsapp",
-    "2021",
-    "wabase-md",
-    "base",
-    "baileys-md",
-    "bot",
-    "bot-md",
-    "multi-device"
-  ],
-  "author": "Alfa",
-  "license": "MIT",
-  "dependencies": {
-    "@adiwajshing/baileys": "^4.4.0",
+"name": "haikal-hw",
+"version": "1.2.3",
+"description": "WhatsApp Using Lib Baileys Multi Device",
+"main": "alfa.js",
+"type": "commonjs",
+"scripts": {
+"start": "node alfa.js"
+},
+"keywords": [
+"termux",
+"whatsapp",
+"2021",
+"wabase-md",
+"base",
+"baileys-md",
+"bot",
+"bot-md",
+"multi-device"
+],
+"author": "Haikal Hw.",
+"license": "MIT",
+"dependencies": {
+"@adiwajshing/baileys": "^4.1.0",
 "@adiwajshing/keyed-db": "^0.2.4",
 "awesome-phonenumber": "^2.64.0",
 "axios": "^0.24.0",
@@ -61,17 +61,17 @@
 "xfarr-api": "^1.0.2",
 "yt-search": "^2.10.2"
 },
-  "directories": {
-    "lib": "lib",
-    "src": "src"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DikaArdnt/Hisoka-Morou.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DikaArdnt/Hisoka-Morou/issues"
-  },
-  "homepage": "https://github.com/DikaArdnt/Hisoka-Morou#readme"
+"directories": {
+"lib": "lib",
+"src": "src"
+},
+"devDependencies": {},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/HW-XMTeam/Haikal-Morou.git"
+},
+"bugs": {
+"url": "https://github.com/HW-XMTeam/Haikal-Morou/issues"
+},
+"homepage": "https://github.com/HW-XMTeam/Haikal-Morou#readme"
 }
